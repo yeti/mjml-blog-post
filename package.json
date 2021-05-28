@@ -1,0 +1,16 @@
+{
+	"name": "mjml-blog-post",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"build": "mjml index.mjml --output output.html",
+		"watch": "mjml --watch index.mjml --output output.html"
+	},
+	"author": "Will Harris",
+	"license": "MIT",
+	"dependencies": {
+		"mjml": "^4.9.3"
+	}
+}
